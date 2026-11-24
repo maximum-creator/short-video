@@ -1,0 +1,5 @@
+[
+  { "id": "opening_frame", "label": "起始画面", "node": "12", "input": "image", "assetKinds": ["分镜关键画面"] },
+  { "id": "character", "label": "角色外观", "node": "13", "input": "image", "assetKinds": ["角色"] },
+  { "id": "environment", "label": "场景构图", "node": "14", "input": "image", "assetKinds": ["场景"] }
+]

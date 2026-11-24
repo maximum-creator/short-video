@@ -1,0 +1,20 @@
+[
+  {
+    "id": "duration",
+    "label": "生成时长",
+    "targets": [{ "node": "8", "input": "seconds" }],
+    "options": [
+      { "id": "four", "label": "4 秒", "seconds": 4, "values": [4] },
+      { "id": "six", "label": "6 秒", "seconds": 6, "values": [6] }
+    ]
+  },
+  {
+    "id": "framing",
+    "label": "生成画幅",
+    "targets": [{ "node": "8", "input": "width" }, { "node": "8", "input": "height" }],
+    "options": [
+      { "id": "vertical", "label": "9:16 · 720×1280", "values": [720, 1280] },
+      { "id": "horizontal", "label": "16:9 · 1280×720", "values": [1280, 720] }
+    ]
+  }
+]

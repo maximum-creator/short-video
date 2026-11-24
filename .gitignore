@@ -1,0 +1,15 @@
+# Local browser / Python / test artefacts
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+.recovery/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.sqlite
+*.db
+*.log
+node_modules/
+output/
+outputs/
